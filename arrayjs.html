@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //var movies=[] like this we can define an array
+        var heros=new Array() //define an array like this 
+        var movies=["RRR","KGF","F2","F3"]//this like also
+        movies.push("Acharya")
+        movies.push("GodFather","Maharshi","MCA")
+        heros.push("Chiru","mahesh babu","ram charan","nani")//add elements at the end of an array
+        console.log(heros)
+        document.write(movies)
+        console.log(movies)
+        console.log(movies.pop())//remove last element and returns in console
+        console.log(movies) 
+        console.log(movies.unshift("MCA"))//add from front and return length 
+        console.log(movies) 
+        movies.unshift("VR","seetha ramam","goast")// add these multiple elements from the 0th index
+        console.log(movies)
+        console.log(movies.shift())//movies.shift() remove first element in the array
+        //here it returns removed value in console
+        console.log(movies) 
+        console.log("index of F3 is :"+movies.indexOf("F3"))  // returns te index position of F3 
+        console.log(movies.slice(2,6))  //elements form 2nd to 5th position
+    </script>
+</body>
+</html>
